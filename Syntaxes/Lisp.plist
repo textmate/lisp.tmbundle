@@ -80,7 +80,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(#)(\w|[\\+-=&lt;&gt;'"&amp;#])+</string>
+			<string>(#|\?)(\w|[\\+-=&lt;&gt;'"&amp;#])+</string>
 			<key>name</key>
 			<string>constant.character.lisp</string>
 		</dict>
