@@ -123,7 +123,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?i:cons|car|cdr|cond|lambda|format|setq|setf|quote|eval|append|list|listp|memberp|t|load|progn)\b</string>
+			<string>(?&lt;![-\w])(?i:cons|car|cdr|cond|lambda|format|setq|setf|quote|eval|append|list|listp|memberp|t|load|progn)(?![-\w])</string>
 			<key>name</key>
 			<string>support.function.lisp</string>
 		</dict>
