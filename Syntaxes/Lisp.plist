@@ -66,7 +66,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(\b(?i:(defun|defmethod|defmacro))\b)(\s+)((\w|\-|\!|\?)*)</string>
+			<string>(\b(?i:(defun|defgeneric|defmethod|defmacro|defclass|defstruct|defconstant|defvar|defparameter))\b)(\s+)((\w|\-|\!|\?)*)</string>
 			<key>name</key>
 			<string>meta.function.lisp</string>
 		</dict>
@@ -105,13 +105,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?i:case|do|let|loop|if|else|when)\b</string>
+			<string>\b(?i:case|ecase|ccase|typecase|etypecase|ctypecase|do|dolist|dotimes|let|let\*|labels|flet|loop|if|else|when|unless)\b</string>
 			<key>name</key>
 			<string>keyword.control.lisp</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?i:eq|neq|and|or)\b</string>
+			<string>\b(?i:eq|neq|and|or|not)\b</string>
 			<key>name</key>
 			<string>keyword.operator.lisp</string>
 		</dict>
